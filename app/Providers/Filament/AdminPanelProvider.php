@@ -27,7 +27,6 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->authorizeUsing(fn ($user) => true)
             ->colors([
                 'primary' => Color::Amber,
             ])            
